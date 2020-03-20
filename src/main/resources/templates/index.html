@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app='app-index'>
+ <head> 
+  	<meta charset='UTF-8' />
+  	<title>OpenData Against Covid19!</title>
+	<script src='https://code.angularjs.org/1.5.9/angular.min.js'></script> 
+	<script src='./js/app.js'></script>  
+  	<link rel="stylesheet" type="text/css" href="./css/index.css">
+ </head> 
+<body ng-controller='index-controller' >
+	
+	<div id="body">
+	
+		<h3>Unidentified Mapping of at-risk Groups for Covid19</h3>
+		<p><a href="/links" target="_blank">Who is at high risk</a></p>
+	
+		<div id="registration">
+			
+			<div id="content">
+			
+				<p>Country*:	<select ng-model="person.country" ng-options="item for item in countriesname" ></select></p>
+				<p>State/Area/Region*: <input type='text' value='' ng-model="person.state"/></p>
+				<p>City*: <input type='text' value='' ng-model="person.city"/></p>
+				<p>Neighborhood*: <input type='text' value='' ng-model="person.neighborhood" /></p>
+				<p>Postal Code: <input type='text' value='' ng-model="person.postalcode" /> </p>
+				<p> <button ng-click="add(person)"> + 1 </button> </p>
+				<p>* Mandatory</p>
+				
+			</div>
+			
+		</div>
+		
+		<div id ="countriesbutton" >
+			<p> <button ng-repeat="(key, value) in countriespresentation" ng-click="getLocation()">{{ value }}</button></p>
+		</div>
+		
+		<div id = "opendata">
+			<p><a href='/search'>All Countries & Open Data</a><p>
+			<p><a href='https://github.com/marcioalexandre/highrisk' target="_blank">Opensource on github.com/marcioalexandre</a><p>
+		</div>
+		
+	</div>
+</body>
+
+</html>

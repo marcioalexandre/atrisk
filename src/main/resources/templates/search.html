@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app='app-countries'>
+ <head> 
+  	<meta charset='UTF-8' />
+  	<title>OpenData Against Covid19!</title>
+	<script src='https://code.angularjs.org/1.5.9/angular.min.js'></script> 
+	<script src='./js/search.js'></script>
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+ </head> 
+<body ng-controller='countries-controller'>
+<a href="/">Index</a>
+	<div id="body">
+		<p>Country: <select ng-model='country' ng-change='getStatesMapping(country)' ng-options="item for item in countriespresentation"></select></p>
+		<p>State/Area/Region: <select ng-model='state' ng-change='getCitiesMapping(country, state)' ng-options="item for item in statespresentation"></select></p>
+		<p>City: <select ng-model='city' ng-change='getNeighborhoodsMapping(country, state, city)' ng-options="item for item in citiespresentation"></select></p>
+		<p>Neighborhood: <select ng-model='neighborhood' ng-change='opendataByCountryAndStateAndCityAndNeighborhood(country,state,city,neighborhood)' ng-options="item for item in neighborhoodspresentation"></select></p>
+		<p>  </p>
+	</div>
+	<div id="posbody">
+		(JSON) Open Data ({{bound}}):
+		<textarea rows="20" cols="65">{{opendata}}</textarea>
+	</div>
+</body>
+</html>

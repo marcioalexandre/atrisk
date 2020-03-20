@@ -1,0 +1,50 @@
+#body {
+	position:absolute;
+	top: 20px;
+  	left: 50px;
+	width: 500px;
+	height: 450px;
+	border: 0px solid;
+	border-color: #DCDCDC;
+}
+#registration {
+	position:absolute;
+	margin-top:10px;
+	margin-left:10px;
+	width: 370px;
+	height: 280px;
+	border: 1px solid;
+	border-color: #DCDCDC;
+}
+#content {
+	position:absolute;
+	margin-top:10px;
+	margin-left:10px;
+}
+#countriesbutton {
+	position:absolute;
+	top: 380px;
+  	left: 10px;
+	width: 450px;
+	height:100px;
+	border: 0px solid;
+	border-color: #DCDCDC;
+}
+#opendata {
+	position:absolute;
+	top: 480px;
+  	left: 10px;
+	width: 450px;
+	height: 50px;
+	border: 0px solid;
+	border-color: #DCDCDC;
+}
+#posbody {
+	position:absolute;
+	top: 250px;
+  	left: 50px;
+	width: 500px;
+	height: 200px;
+	border: 0px solid;
+	border-color: #DCDCDC;
+}
