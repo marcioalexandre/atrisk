@@ -1,6 +1,6 @@
 # Webapp to locate at-risk groups against Covid19
 
-https://highriskpeople.herokuapp.com/ is a #webapp that executes user-provided geographic data. This is an effort to mitigate the challenge of monitoring the social isolation of at-risk groups. 
+It is a web app that executes and makes available user-provided geographic data. This is an effort to mitigate the challenge of monitoring the social isolation of at-risk groups. 
 
 If you know someone that belongs to at-risk groups, please inform his/her location. This location does not identify the person, just his/her country, state, city and neighborhood.
 
