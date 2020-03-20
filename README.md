@@ -1,11 +1,11 @@
-# Location of at-risk groups to fight Covid19
+# Webapp to locate at-risk groups against Covid19
 
-Initial software application in order to provide the location of at-risk groups to protect them against Covid19.
+https://highriskpeople.herokuapp.com/ is a #webapp that executes user-provided geographic data. This is an effort to mitigate the challenge of monitoring the social isolation of at-risk groups. 
 
-Feel free to fork it to create other solutions to fight Covid19.
+If you know someone that belongs to at-risk groups, please inform his/her location. This location does not identify the person, just his/her country, state, city and neighborhood.
 
-For developers:
-- Fronend: HTML, CSS, AngularJS,
-- Backend: Java8, JPA/Hibernate, Maven, SpringBoot;
+Therefore, this webapp allows the use of user-provide data related to where the at-risk groups are. 
 
-Link: Https://highrisk.herokuapp.com
+With these information, governments and any organization (worldwide) can apply more effective health policies to protect these vulnerable groups against Covid19. 
+
+All structure and frameworks used in this project are free and/or opensource: #heroku, #postgresql, #java8, #springboot, #restapi, #angularjs
