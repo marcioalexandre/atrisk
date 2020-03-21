@@ -6,8 +6,6 @@ If you know someone that belongs to at-risk groups, please inform his/her locati
 
 With these information, governments and any organization (worldwide) can apply more effective health policies to protect these vulnerable groups against Covid19. 
 
-All data are available in JSON format, and all codes are free and opensource: https://lnkd.in/etZvBz4
-
 All structure and frameworks used in this project are free and/or opensource: #heroku, #postgresql, #java8, #springboot, #restapi, #angularjs
 
 In #Heroku, all data stored in the database are ephemeral and do not persist. If someone has any database service that persists data, and wants to contribute in this project, please let me know.
