@@ -9,3 +9,7 @@ With these information, governments and any organization (worldwide) can apply m
 All structure and frameworks used in this project are free and/or opensource: #heroku, #postgresql, #java8, #springboot, #restapi, #angularjs
 
 In #Heroku, all data stored in the database are ephemeral and do not persist. If someone has any database service that persists data, and wants to contribute in this project, please let me know.
+
+For Developers (to extend the project to other solutions):
+- Backend: SpringBoot, Java8, Hibernate, Maven, REST API;
+- Frontend: HTML, CSS, AngularJS.
