@@ -1,4 +1,4 @@
-# Webapp to locate at-risk groups against Covid19
+# Webapp to locate higher-risk groups for Coronavirus (Covid19)
 
 A webapp that stores and makes available user-provided geographic data about people from at-risk groups for Covid19. This is an effort to mitigate the challenge of monitoring the social isolation of at-risk groups.
 
